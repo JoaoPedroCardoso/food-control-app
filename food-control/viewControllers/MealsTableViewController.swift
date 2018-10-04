@@ -12,7 +12,12 @@ class MealsTableViewController : UITableViewController, AddMealDelegate {
     
     func add(_ meal: Meal) {
         meals.append(meal)
+        Dao().save(meals)
         tableView.reloadData()
+    }
+    
+    override func viewDidLoad() {
+        self.meals = Dao().load()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

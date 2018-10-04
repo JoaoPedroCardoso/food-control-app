@@ -17,6 +17,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBOutlet var tableView : UITableView?
     
     func add(_ item: Item) {
+        Dao().save(items)
         items.append(item)
         reloadTableData()
     }
@@ -24,6 +25,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     override func viewDidLoad() {
         let newItemButton = UIBarButtonItem(title: "new item", style: UIBarButtonItem.Style.plain, target: self, action: #selector(showNewItem))
         navigationItem.rightBarButtonItem = newItemButton
+        self.items = Dao().load()
     }
     
     @objc func showNewItem() {
@@ -107,4 +109,5 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
         return nil
     }
+    
 }

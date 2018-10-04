@@ -1,7 +1,6 @@
 import Foundation
 
-class Meal : NSCoding {
-    
+class Meal : NSObject, NSCoding {
     let name: String
     let happiness: Int
     let items: Array<Item>

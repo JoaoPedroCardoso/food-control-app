@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7016987221668A72006A3A31 /* Dao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7016987121668A72006A3A31 /* Dao.swift */; };
 		704573E72164ED2D007AB4E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704573E12164ED2D007AB4E5 /* ViewController.swift */; };
 		704573E82164ED2D007AB4E5 /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704573E22164ED2D007AB4E5 /* NewItemViewController.swift */; };
 		704573E92164ED2D007AB4E5 /* MealsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704573E32164ED2D007AB4E5 /* MealsTableViewController.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7016987121668A72006A3A31 /* Dao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dao.swift; sourceTree = "<group>"; };
 		704573E12164ED2D007AB4E5 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		704573E22164ED2D007AB4E5 /* NewItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
 		704573E32164ED2D007AB4E5 /* MealsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealsTableViewController.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				70C2BB082163A96500C90672 /* Meal.swift */,
 				70C2BB0A2163A9A100C90672 /* Item.swift */,
 				70C2BB5A2164090600C90672 /* AddAnItemDelegate.swift */,
+				7016987121668A72006A3A31 /* Dao.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 			files = (
 				704573F221655CDB007AB4E5 /* RemoveMealController.swift in Sources */,
 				704573F02165331B007AB4E5 /* Alert.swift in Sources */,
+				7016987221668A72006A3A31 /* Dao.swift in Sources */,
 				704573E72164ED2D007AB4E5 /* ViewController.swift in Sources */,
 				70C2BB512163DF2100C90672 /* AddMealDelegate.swift in Sources */,
 				704573E92164ED2D007AB4E5 /* MealsTableViewController.swift in Sources */,
